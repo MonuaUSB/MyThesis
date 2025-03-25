@@ -1,0 +1,2 @@
+python gen.py --generate --records 1000
+python gen.py --load

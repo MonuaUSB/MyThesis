@@ -1,0 +1,4 @@
+python gen.py --generate --records 1000000
+python gen.py --load
+
+python qur.py

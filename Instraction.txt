@@ -1,0 +1,43 @@
+ddocker start my-mysql-container
+
+sudo docker exec -it my-mysql-container mysql -uroot -p
+
+
+
+supplier;
+date;
+lineorder;
+
+sudo apt install bzip2 tar
+
+
+
+docker exec -it some-mysql mysql -uroot -p - mysql
+
+docker exec -it quirky_meninsky psql -U postgres
+
+docker exec -it clickhouse-server clickhouse-client
+
+docker exec -it cockroachdb ./cockroach sql --insecure
+
+
+
+use sel;     -mysql
+
+ \c ssb2;  -postgres
+
+SHOW TABLES; -mysql
+
+   \dt;  -postgres
+
+
+
+DROP TABLE customers;  DROP DATABASE имя_базы_данных;
+
+
+
+
+
+python generate.py --generate --records 1000
+python generate.py --load
+
